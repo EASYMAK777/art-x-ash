@@ -6,7 +6,12 @@ import amy2 from "../img/Amy2.jpg";
 
 function ImageCarousel() {
   return (
-    <Carousel className="carousel">
+    <Carousel
+      className="carousel"
+      controls={false}
+      indicatorLabels={[]}
+      indicators={false}
+    >
       <Carousel.Item className="carousel-item" interval={1000}>
         <img
           className="art-work"
