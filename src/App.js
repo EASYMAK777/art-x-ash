@@ -5,7 +5,7 @@ import IndividualIntervalsExample from "./components/Carousel";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Navbar />
 
       <IndividualIntervalsExample />

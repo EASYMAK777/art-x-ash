@@ -1,4 +1,5 @@
 import Carousel from "react-bootstrap/Carousel";
+
 import amy3 from "../img/Amy3.jpg";
 import amy1 from "../img/amy1.jpg";
 import amy2 from "../img/Amy2.jpg";
@@ -35,7 +36,14 @@ function ImageCarousel() {
           className="art-work"
           src={amy2}
           alt="Third slide"
-          style={{ height: 500, width: 500 }}
+          style={{
+            height: 500,
+            width: 500,
+            margin: 0,
+            position: "absolute",
+            top: 50,
+            left: 50,
+          }}
         />
         {/* <Carousel.Caption>
           <h3>Third slide label</h3>
