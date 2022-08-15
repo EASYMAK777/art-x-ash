@@ -7,6 +7,10 @@
   min-height: 100%;
 }
 
+.nav{
+  margin-bottom: 50px;
+}
+
 /* .logo{
   flex: 1;
   height: 20px;
