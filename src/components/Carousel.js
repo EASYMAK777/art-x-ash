@@ -12,7 +12,7 @@ function ImageCarousel() {
           className="art-work"
           src={amy3}
           alt="picasso"
-          style={{ height: 400, width: 300 }}
+          style={{ height: "auto", width: "auto" }}
         />
         {/* <Carousel.Caption>
           <h3>First slide label</h3>
@@ -24,7 +24,7 @@ function ImageCarousel() {
           className="art-work"
           src={amy1}
           alt="Second slide"
-          style={{ height: 400, width: 300 }}
+          style={{ height: "auto", width: "auto" }}
         />
         {/* <Carousel.Caption>
           <h3>Second slide label</h3>
@@ -36,7 +36,7 @@ function ImageCarousel() {
           className="art-work"
           src={amy2}
           alt="Third slide"
-          style={{ height: 400, width: 300 }}
+          style={{ height: "auto", width: "auto" }}
         />
         {/* <Carousel.Caption>
           <h3>Third slide label</h3>
