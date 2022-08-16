@@ -1,6 +1,3 @@
-import React from "react";
-import amy1 from "../img/amy1.jpg";
-
 export const SliderData = [
   {
     image:
